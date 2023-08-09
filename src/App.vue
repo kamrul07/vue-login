@@ -29,7 +29,7 @@ function login() {
   const user = users.find(user => user.username === username.value && user.pass === password.value);
   if (user) {
     alert('logged in');
-    window.location.href = "http://www.w3schools.com";
+    window.location.href = "https://github.com/kamrul07/vue-login";
   } else {
     alert('wrong username or password');
   }
